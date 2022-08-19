@@ -1,0 +1,42 @@
+
+
+.message-container {
+    margin-left:6px;
+    margin-right:6px;
+    min-height: 36px;
+    width:fit-content;
+    max-width: 80%;
+    min-width: 36px;
+    border-radius: 18px;
+    /* margin-top: 6px; */
+    display:flex;
+    align-items: center;
+    background: transparent;
+    border: .7px rgb(255, 255, 255) solid;
+    color:rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+.message-user{
+    color:white;
+    margin-left:4px;
+    margin-right:4px;
+    font-size: 16px;
+    height:16px;
+    font-family: Arial, Helvetica, sans-serif; 
+    width:fit-content;
+}
+
+.user-message-container{
+    margin-left: auto;
+}
+
+.message{
+    margin:4px;
+    margin-right:8px;
+    margin-left:8px;
+}
+
+
+

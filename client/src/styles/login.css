@@ -1,0 +1,74 @@
+
+
+.login-container{
+    height:100vh;
+    width: min(100% , 600px);
+    display:grid;
+    grid-template-columns: 1fr min(90vw , 400px) 1fr;
+    grid-template-rows: 1fr repeat(5 , 50px ) 1fr;
+    font-size : 22px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.login-container > *{
+    display:flex;
+    justify-content: center;
+}
+
+.login-username{
+    grid-column: 2 / 3;
+    grid-row:2 / 3;
+}
+
+.login-username-input{
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+    border:1px dashed black;
+}
+
+.login-key{
+    grid-column: 2 / 3;
+    grid-row:4 / 5;
+}
+
+.login-key , .login-username{
+    margin:auto;
+}
+
+.login-key-input {
+    grid-column: 2 / 3;
+    grid-row:5 / 6;
+    border:1px solid black;
+    border-radius:25px;
+    height:40px;
+
+}
+
+.login-key-input , .login-username-input{
+    border:1px solid black;
+    border-radius:25px;
+    height:40px;
+    font-size: 20px;
+    
+}
+
+.login-key-input::placeholder, .login-username-input::placeholder{
+    color:black;
+    font-size: 20px;
+}
+
+.login-submit{
+    grid-column: 2 / 3;
+    grid-row:6 / 7;
+    border:1px black solid;
+    border-radius: 25px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: bold;
+    background: transparent;
+    height:50px;
+    margin:auto;
+    width:100%;
+}

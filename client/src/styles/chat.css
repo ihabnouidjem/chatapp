@@ -1,0 +1,21 @@
+
+.main-chat{
+    height:calc(100vh - 50px);
+    width: min(100% , 600px);
+    position:fixed;
+    top:0;
+    overflow-y: scroll;
+    background:linear-gradient(40deg,rgb(0, 0, 0)  10%,rgb(37, 0, 0) );
+    /* background:linear-gradient(40deg,rgba(0, 4, 255, 0.8)  ,rgba(0, 157, 255, 0) 70%),
+    linear-gradient(160deg,rgba(255, 238, 0, 0.8) ,rgb(0 0 0 / 0) 70%),
+    linear-gradient(280deg,rgba(255, 0, 0, 0.8)  ,rgb(0 0 0 / 0) 70%); */
+    /* background: linear-gradient(217deg, rgb(162 163 253 /0.6), rgba(255,0,0,0) 70.71%),
+            linear-gradient(127deg, rgb(02 30 47 /0.9), rgba(0,255,0,0) 70.71%),
+            linear-gradient(336deg, rgb(0 0 0 /0.9), rgba(0,0,255,0) 70.71%); */
+            /* background: linear-gradient(217deg, rgba(1, 11, 59, 0.8), rgba(255,0,0,0) 70.71%),
+            linear-gradient(127deg, rgba(255, 255, 255, 0.8), rgba(0,255,0,0) 70.71%),
+            linear-gradient(336deg, rgba(255, 238, 0, 0.8), rgba(0,0,255,0) 70.71%); */
+}
+
+
+
